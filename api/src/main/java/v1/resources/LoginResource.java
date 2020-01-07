@@ -44,7 +44,7 @@ public class LoginResource {
 
     @POST
     public Response createUser(User user) {
-        if (user.getUserName() == null || user.getPassword() == null || user.getEmail() == null) {
+        if (user.getUserName() == null || user.getPassword() == null) {
             return Response.status(Response.Status.BAD_REQUEST).build();
         } else {
             user = userBean.createUser(user);
