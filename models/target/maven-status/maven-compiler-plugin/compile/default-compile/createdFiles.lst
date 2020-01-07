@@ -1,0 +1,3 @@
+models\converters\InstantAttributeConverter.class
+models\converters\UserConverter.class
+models\entities\UserEntity.class

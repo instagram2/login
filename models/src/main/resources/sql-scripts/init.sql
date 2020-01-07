@@ -1,0 +1,1 @@
+INSERT INTO users (userName, password, created) VALUES ('jNovak', '12345', TIMESTAMP '2006-01-01 15:36:38');
