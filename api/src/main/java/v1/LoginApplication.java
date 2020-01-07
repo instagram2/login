@@ -8,4 +8,5 @@ import com.kumuluz.ee.discovery.annotations.RegisterService;
 @ApplicationPath("/v1")
 public class LoginApplication extends Application {
 
+
 }
